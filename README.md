@@ -1,12 +1,16 @@
 Building with Google Antigravity | Wanderwise Travel Assistant
+
 This repository documents how I used Google Antigravity to set up and run a Python application with an AI coding agent. Wanderwise is one example from a series of projects I’ve built with agents. It gives me an end-to-end workflow to try, from installing dependencies to running and testing a voice interface in a browser.
+
 My Antigravity workflow
-Open the project as a workspace. I opened the local project folder in Antigravity so the agent could work with the project files and see the dependency configuration.
-Give the agent a concrete goal. I asked it to set up the Poetry environment, install the dependencies, and run the Gradio app.
-Review the proposed commands. I used the review-driven workflow to check the agent’s plan and approve terminal commands as it worked through the setup.
-Check the result in the browser preview. I used the Gradio interface to try a travel request, inspect the text response, and check browser audio playback.
+1. Open the project as a workspace. I opened the local project folder in Antigravity so the agent could work with the project files and see the dependency configuration.
+2. Give the agent a concrete goal. I asked it to set up the Poetry environment, install the dependencies, and run the Gradio app.
+3. Review the proposed commands. I used the review-driven workflow to check the agent’s plan and approve terminal commands as it worked through the setup.
+4. Check the result in the browser preview. I used the Gradio interface to try a travel request, inspect the text response, and check browser audio playback.
+
 The prompt I used
 > Use the current workspace. Create a Python virtual environment using Poetry, install the project dependencies, and run the Gradio application. Follow the instructions in the README.
+> 
 Technology
 Technology	Role in the project
 Google Antigravity	Agent-assisted development workspace for planning, executing, and reviewing setup and launch steps.
