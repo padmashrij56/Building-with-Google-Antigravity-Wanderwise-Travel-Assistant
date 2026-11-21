@@ -1,0 +1,17 @@
+
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+flagged/
+temp_audio/
+temp_speech.mp3
+
+.DS_Store
+temp.mp3
+
+.ipynb_checkpoints/
+
+/Audio-Bot/app/chatbot_gradio_runner.ipynb
