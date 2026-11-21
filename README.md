@@ -1,4 +1,6 @@
+
 # Building with Google Antigravity | Wanderwise Travel Assistant
+An agent-assisted development project built with Google Antigravity, Python, Poetry, and Gradio.
 
 This repository documents how I used Google Antigravity to set up and run a Python application with an AI coding agent. Wanderwise is one example from a series of projects I’ve built with agents. It gives me an end-to-end workflow to try, from installing dependencies to running and testing a voice interface in a browser.
 
