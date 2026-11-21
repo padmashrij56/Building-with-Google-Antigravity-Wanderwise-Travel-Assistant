@@ -19,8 +19,10 @@ Gradio	Browser interface for microphone input, editable requests, text responses
 Whisper	Speech-to-text transcription for recorded requests.
 OpenAI API	Generates travel responses using guidance from `data/travel_bot_context.txt`.
 gTTS	Text-to-speech library covered in the project walkthrough.
+
 What Wanderwise does
 Speak or type a trip request, edit it before submitting, and read or listen to the response. When the request is broad, Wanderwise asks about details such as dates, budget, interests, and travel companions.
+
 Local setup
 You’ll need Python, Poetry, an OpenAI API key, and an internet connection. Use the Python version declared in the project’s `pyproject.toml`.
 From the project root, install dependencies.
@@ -34,5 +36,6 @@ Copy `.env.example` to `.env` and fill in `OPENAI_API_KEY`. Keep `.env` local.
 On PowerShell, use `Copy-Item .env.example .env`.
 Start the Gradio application using the launch command for your checkout. If you’re working in Google Antigravity, open the project folder and ask the agent to locate the Gradio entry point and launch it in the Poetry environment.
 Open the local URL printed by Gradio. The demo used `http://127.0.0.1:7860`. Allow microphone access if you want to record a request.
+
 Try it
 Type or say “Plan a two-day trip to Goa with beach activities. I’m traveling with a friend and prefer a moderate budget.” Edit the request as needed, select Submit, then read the response or press play under Voice Response (Browser Playback).
